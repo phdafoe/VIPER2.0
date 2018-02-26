@@ -7,21 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160B10D71A4C604814FE34B9 /* Pods_VIPER2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A311C7FC76A9C6D417EEE7D7 /* Pods_VIPER2_0.framework */; };
 		B465BD0120418696002122A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD0020418696002122A6 /* AppDelegate.swift */; };
-		B465BD0320418696002122A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD0220418696002122A6 /* ViewController.swift */; };
-		B465BD0620418696002122A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B465BD0420418696002122A6 /* Main.storyboard */; };
 		B465BD0820418696002122A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B465BD0720418696002122A6 /* Assets.xcassets */; };
 		B465BD0B20418696002122A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B465BD0920418696002122A6 /* LaunchScreen.storyboard */; };
+		B465BD1920418721002122A6 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD1820418721002122A6 /* Provider.swift */; };
+		B465BD1D2041874B002122A6 /* ModelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD1C2041874B002122A6 /* ModelEntity.swift */; };
+		B465BD202041875D002122A6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD1E2041875D002122A6 /* MasterViewController.swift */; };
+		B465BD212041875D002122A6 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B465BD1F2041875D002122A6 /* MasterViewController.xib */; };
+		B465BD2320418772002122A6 /* PresenterMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD2220418772002122A6 /* PresenterMaster.swift */; };
+		B465BD252041877D002122A6 /* InteractorMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD242041877D002122A6 /* InteractorMaster.swift */; };
+		B465BD282041878C002122A6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD262041878C002122A6 /* DetailViewController.swift */; };
+		B465BD292041878C002122A6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B465BD272041878C002122A6 /* DetailViewController.xib */; };
+		B465BD2B2041879D002122A6 /* PresenterDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD2A2041879D002122A6 /* PresenterDetail.swift */; };
+		B465BD2D204187AC002122A6 /* InteractorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD2C204187AC002122A6 /* InteractorDetail.swift */; };
+		B465BD2F204187FE002122A6 /* RoutingMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD2E204187FE002122A6 /* RoutingMaster.swift */; };
+		B465BD3120418808002122A6 /* RoutingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD3020418808002122A6 /* RoutingDetail.swift */; };
+		B465BD3320418822002122A6 /* AssemblyMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD3220418822002122A6 /* AssemblyMaster.swift */; };
+		B465BD352041882C002122A6 /* AssemblyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD342041882C002122A6 /* AssemblyDetail.swift */; };
+		B465BD362041893C002122A6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B465BD3A2041893C002122A6 /* Alamofire.framework */; };
+		B465BD372041893C002122A6 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B465BD3B2041893C002122A6 /* Kingfisher.framework */; };
+		B465BD392041893C002122A6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B465BD3D2041893C002122A6 /* SwiftyJSON.framework */; };
+		B465BD4120418980002122A6 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD3F20418980002122A6 /* Constantes.swift */; };
+		B465BD4220418980002122A6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD4020418980002122A6 /* Helpers.swift */; };
+		B465BD462041BECD002122A6 /* ImagenViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B465BD442041BECD002122A6 /* ImagenViewCell.swift */; };
+		B465BD472041BECD002122A6 /* ImagenViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B465BD452041BECD002122A6 /* ImagenViewCell.xib */; };
+		B465BD482041D959002122A6 /* APESuperHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B465BD492041D959002122A6 /* APESuperHUD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F11CA01A369E319F14F1C44 /* Pods-VIPER2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-VIPER2.0/Pods-VIPER2.0.release.xcconfig"; sourceTree = "<group>"; };
+		A311C7FC76A9C6D417EEE7D7 /* Pods_VIPER2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B465BCFD20418696002122A6 /* VIPER2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B465BD0020418696002122A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B465BD0220418696002122A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B465BD0520418696002122A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B465BD0720418696002122A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B465BD0A20418696002122A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B465BD0C20418696002122A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B465BD1820418721002122A6 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		B465BD1C2041874B002122A6 /* ModelEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEntity.swift; sourceTree = "<group>"; };
+		B465BD1E2041875D002122A6 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B465BD1F2041875D002122A6 /* MasterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		B465BD2220418772002122A6 /* PresenterMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterMaster.swift; sourceTree = "<group>"; };
+		B465BD242041877D002122A6 /* InteractorMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorMaster.swift; sourceTree = "<group>"; };
+		B465BD262041878C002122A6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B465BD272041878C002122A6 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		B465BD2A2041879D002122A6 /* PresenterDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterDetail.swift; sourceTree = "<group>"; };
+		B465BD2C204187AC002122A6 /* InteractorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorDetail.swift; sourceTree = "<group>"; };
+		B465BD2E204187FE002122A6 /* RoutingMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingMaster.swift; sourceTree = "<group>"; };
+		B465BD3020418808002122A6 /* RoutingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingDetail.swift; sourceTree = "<group>"; };
+		B465BD3220418822002122A6 /* AssemblyMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyMaster.swift; sourceTree = "<group>"; };
+		B465BD342041882C002122A6 /* AssemblyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyDetail.swift; sourceTree = "<group>"; };
+		B465BD3A2041893C002122A6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B465BD3B2041893C002122A6 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B465BD3C2041893C002122A6 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B465BD3D2041893C002122A6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B465BD3F20418980002122A6 /* Constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		B465BD4020418980002122A6 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B465BD442041BECD002122A6 /* ImagenViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewCell.swift; sourceTree = "<group>"; };
+		B465BD452041BECD002122A6 /* ImagenViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagenViewCell.xib; sourceTree = "<group>"; };
+		B465BD492041D959002122A6 /* APESuperHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APESuperHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61087BA881B9BF5A768610F /* Pods-VIPER2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER2.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VIPER2.0/Pods-VIPER2.0.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +74,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B465BD482041D959002122A6 /* APESuperHUD.framework in Frameworks */,
+				B465BD362041893C002122A6 /* Alamofire.framework in Frameworks */,
+				B465BD372041893C002122A6 /* Kingfisher.framework in Frameworks */,
+				B465BD392041893C002122A6 /* SwiftyJSON.framework in Frameworks */,
+				160B10D71A4C604814FE34B9 /* Pods_VIPER2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		237CB83BD17E4CEB18C04AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61087BA881B9BF5A768610F /* Pods-VIPER2.0.debug.xcconfig */,
+				8F11CA01A369E319F14F1C44 /* Pods-VIPER2.0.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		681320CA51588373EEF41A9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD492041D959002122A6 /* APESuperHUD.framework */,
+				B465BD3A2041893C002122A6 /* Alamofire.framework */,
+				B465BD3B2041893C002122A6 /* Kingfisher.framework */,
+				B465BD3C2041893C002122A6 /* MBProgressHUD.framework */,
+				B465BD3D2041893C002122A6 /* SwiftyJSON.framework */,
+				A311C7FC76A9C6D417EEE7D7 /* Pods_VIPER2_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B465BCF420418695002122A6 = {
 			isa = PBXGroup;
 			children = (
 				B465BCFF20418696002122A6 /* VIPER2.0 */,
 				B465BCFE20418696002122A6 /* Products */,
+				237CB83BD17E4CEB18C04AAB /* Pods */,
+				681320CA51588373EEF41A9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +128,94 @@
 		B465BCFF20418696002122A6 /* VIPER2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				B465BD3E20418973002122A6 /* API */,
+				B465BD15204186F2002122A6 /* Detail */,
+				B465BD14204186EA002122A6 /* Master */,
+				B465BD13204186DD002122A6 /* Entities */,
+				B465BD12204186CE002122A6 /* Provider */,
 				B465BD0020418696002122A6 /* AppDelegate.swift */,
-				B465BD0220418696002122A6 /* ViewController.swift */,
-				B465BD0420418696002122A6 /* Main.storyboard */,
 				B465BD0720418696002122A6 /* Assets.xcassets */,
 				B465BD0920418696002122A6 /* LaunchScreen.storyboard */,
 				B465BD0C20418696002122A6 /* Info.plist */,
 			);
 			path = VIPER2.0;
+			sourceTree = "<group>";
+		};
+		B465BD12204186CE002122A6 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD1820418721002122A6 /* Provider.swift */,
+			);
+			name = Provider;
+			sourceTree = "<group>";
+		};
+		B465BD13204186DD002122A6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD1C2041874B002122A6 /* ModelEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B465BD14204186EA002122A6 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD16204186FD002122A6 /* Modules */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		B465BD15204186F2002122A6 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD1720418704002122A6 /* Modules */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		B465BD16204186FD002122A6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD432041BE9C002122A6 /* CollectionCell */,
+				B465BD1E2041875D002122A6 /* MasterViewController.swift */,
+				B465BD1F2041875D002122A6 /* MasterViewController.xib */,
+				B465BD2220418772002122A6 /* PresenterMaster.swift */,
+				B465BD242041877D002122A6 /* InteractorMaster.swift */,
+				B465BD2E204187FE002122A6 /* RoutingMaster.swift */,
+				B465BD3220418822002122A6 /* AssemblyMaster.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B465BD1720418704002122A6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD262041878C002122A6 /* DetailViewController.swift */,
+				B465BD272041878C002122A6 /* DetailViewController.xib */,
+				B465BD2A2041879D002122A6 /* PresenterDetail.swift */,
+				B465BD2C204187AC002122A6 /* InteractorDetail.swift */,
+				B465BD3020418808002122A6 /* RoutingDetail.swift */,
+				B465BD342041882C002122A6 /* AssemblyDetail.swift */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B465BD3E20418973002122A6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD3F20418980002122A6 /* Constantes.swift */,
+				B465BD4020418980002122A6 /* Helpers.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		B465BD432041BE9C002122A6 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				B465BD442041BECD002122A6 /* ImagenViewCell.swift */,
+				B465BD452041BECD002122A6 /* ImagenViewCell.xib */,
+			);
+			path = CollectionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B465BD0F20418696002122A6 /* Build configuration list for PBXNativeTarget "VIPER2.0" */;
 			buildPhases = (
+				6D8CA168177CD55E6559D63C /* [CP] Check Pods Manifest.lock */,
 				B465BCF920418696002122A6 /* Sources */,
 				B465BCFA20418696002122A6 /* Frameworks */,
 				B465BCFB20418696002122A6 /* Resources */,
+				F8654A6277E48AFD6B724871 /* [CP] Embed Pods Frameworks */,
+				68326FEB0BBC68096798D543 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +282,101 @@
 			files = (
 				B465BD0B20418696002122A6 /* LaunchScreen.storyboard in Resources */,
 				B465BD0820418696002122A6 /* Assets.xcassets in Resources */,
-				B465BD0620418696002122A6 /* Main.storyboard in Resources */,
+				B465BD212041875D002122A6 /* MasterViewController.xib in Resources */,
+				B465BD472041BECD002122A6 /* ImagenViewCell.xib in Resources */,
+				B465BD292041878C002122A6 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68326FEB0BBC68096798D543 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIPER2.0/Pods-VIPER2.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8CA168177CD55E6559D63C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIPER2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8654A6277E48AFD6B724871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VIPER2.0/Pods-VIPER2.0-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APESuperHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VIPER2.0/Pods-VIPER2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B465BCF920418696002122A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B465BD0320418696002122A6 /* ViewController.swift in Sources */,
+				B465BD2B2041879D002122A6 /* PresenterDetail.swift in Sources */,
+				B465BD352041882C002122A6 /* AssemblyDetail.swift in Sources */,
+				B465BD202041875D002122A6 /* MasterViewController.swift in Sources */,
+				B465BD2F204187FE002122A6 /* RoutingMaster.swift in Sources */,
+				B465BD1920418721002122A6 /* Provider.swift in Sources */,
+				B465BD4120418980002122A6 /* Constantes.swift in Sources */,
+				B465BD2320418772002122A6 /* PresenterMaster.swift in Sources */,
+				B465BD252041877D002122A6 /* InteractorMaster.swift in Sources */,
+				B465BD3120418808002122A6 /* RoutingDetail.swift in Sources */,
+				B465BD3320418822002122A6 /* AssemblyMaster.swift in Sources */,
+				B465BD1D2041874B002122A6 /* ModelEntity.swift in Sources */,
+				B465BD462041BECD002122A6 /* ImagenViewCell.swift in Sources */,
 				B465BD0120418696002122A6 /* AppDelegate.swift in Sources */,
+				B465BD282041878C002122A6 /* DetailViewController.swift in Sources */,
+				B465BD4220418980002122A6 /* Helpers.swift in Sources */,
+				B465BD2D204187AC002122A6 /* InteractorDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B465BD0420418696002122A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B465BD0520418696002122A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B465BD0920418696002122A6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +497,7 @@
 		};
 		B465BD1020418696002122A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61087BA881B9BF5A768610F /* Pods-VIPER2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -281,12 +507,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icologic.iOS.VIPER2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B465BD1120418696002122A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F11CA01A369E319F14F1C44 /* Pods-VIPER2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +523,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.icologic.iOS.VIPER2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

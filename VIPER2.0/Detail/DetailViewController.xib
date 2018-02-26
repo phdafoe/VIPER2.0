@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="VIPER2_0" customModuleProvider="target">
+            <connections>
+                <outlet property="myBackgroundImagenData" destination="C95-zW-63Y" id="YHc-7U-nrL"/>
+                <outlet property="myFechalanzamientoPost" destination="T6b-AP-iE2" id="0QF-ZL-cSz"/>
+                <outlet property="myIdPost" destination="xFj-kB-06L" id="cFK-wm-vZ4"/>
+                <outlet property="myImagenPost" destination="wwV-lS-MNO" id="cWW-UU-qeq"/>
+                <outlet property="myNombreArtistaPost" destination="SAw-8H-4U3" id="dda-ru-5Gj"/>
+                <outlet property="myTituloPost" destination="Dua-pH-o4p" id="sDw-Q9-bPc"/>
+                <outlet property="myUrlPost" destination="Az3-4p-YGx" id="DU2-AY-lbj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="C95-zW-63Y">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="406" id="LxL-zv-J57"/>
+                    </constraints>
+                </imageView>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q5l-oE-zUm">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="a6G-lP-Kov">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="wwV-lS-MNO">
+                    <rect key="frame" x="70" y="20" width="235" height="354"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="354" id="EVT-sW-dX0"/>
+                        <constraint firstAttribute="width" constant="235" id="vMA-W7-Mwm"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Vtt-75-CSZ">
+                    <rect key="frame" x="8" y="414" width="359" height="118.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dua-pH-o4p">
+                            <rect key="frame" x="0.0" y="0.0" width="359" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAw-8H-4U3">
+                            <rect key="frame" x="0.0" y="24.5" width="359" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6b-AP-iE2">
+                            <rect key="frame" x="0.0" y="49" width="359" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFj-kB-06L">
+                            <rect key="frame" x="0.0" y="73.5" width="359" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Az3-4p-YGx">
+                            <rect key="frame" x="0.0" y="98" width="359" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.25094866069999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Q5l-oE-zUm" firstAttribute="bottom" secondItem="C95-zW-63Y" secondAttribute="bottom" id="0X7-ak-DRn"/>
+                <constraint firstItem="C95-zW-63Y" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="2aO-tS-gQC"/>
+                <constraint firstItem="C95-zW-63Y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BhQ-OH-wi6"/>
+                <constraint firstItem="Vtt-75-CSZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="GRB-0j-4XT"/>
+                <constraint firstItem="C95-zW-63Y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LHg-Bl-8nM"/>
+                <constraint firstItem="wwV-lS-MNO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="NXt-On-70S"/>
+                <constraint firstItem="Vtt-75-CSZ" firstAttribute="top" secondItem="C95-zW-63Y" secondAttribute="bottom" constant="8" id="bQp-sx-nuP"/>
+                <constraint firstItem="Q5l-oE-zUm" firstAttribute="leading" secondItem="C95-zW-63Y" secondAttribute="leading" id="dbd-wT-l97"/>
+                <constraint firstAttribute="trailing" secondItem="Vtt-75-CSZ" secondAttribute="trailing" constant="8" id="jMg-ZX-p2n"/>
+                <constraint firstItem="wwV-lS-MNO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nrf-Iy-F7W"/>
+                <constraint firstItem="Q5l-oE-zUm" firstAttribute="trailing" secondItem="C95-zW-63Y" secondAttribute="trailing" id="xsT-oB-aFg"/>
+                <constraint firstItem="Q5l-oE-zUm" firstAttribute="top" secondItem="C95-zW-63Y" secondAttribute="top" id="ylF-fH-x77"/>
+            </constraints>
+            <point key="canvasLocation" x="-60.5" y="168.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="placeholder" width="1280" height="800"/>
+    </resources>
+</document>
